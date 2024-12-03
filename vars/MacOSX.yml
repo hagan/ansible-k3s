@@ -1,0 +1,8 @@
+# This vars file supports MacOSX 14+
+
+ansible_python_interpreter: /usr/bin/python3
+
+POSTGRESQL_PACKAGES:
+  - postgresql
+  - postgresql-client
+  - python3-psycopg2
